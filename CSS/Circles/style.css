@@ -1,0 +1,46 @@
+.circles{
+    width: 250px;
+    height: 225px;
+    background-color: grey;
+}
+
+.circle {
+	width: 150px;
+	height: 150px;
+	background: rgb(0, 0, 0);
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 50px;
+    border-radius: 75px;
+    border: 5px solid;
+    position: absolute;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.circle span{
+    color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 60px;
+    margin: auto;
+}
+
+#circle-R{
+    margin-left:50px;
+    background-color: rgba(255, 0, 0, 0.473);
+    border-color: red;
+}
+
+#circle-G{
+    margin-top: 75px;
+    background-color: rgba(0, 128, 0, 0.425);
+    border-color: green;
+}
+
+#circle-B{
+    margin-top: 75px;
+    margin-left:100px;
+    background-color: rgba(0, 0, 255, 0.473);
+    border-color: blue;
+}
